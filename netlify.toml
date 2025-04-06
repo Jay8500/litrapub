@@ -1,4 +1,3 @@
 [build]
-  command = "npm run build"
-  functions = "netlify/functions"
-  publish = "dist/browser" # Keep this if your output is directly here
+  command = "npm run build" # Or "ng build --prod"
+  publish = "dist/browser"
