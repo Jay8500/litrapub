@@ -1,0 +1,79 @@
+@import "../../../node_modules/primeflex/primeflex.min.css";
+
+.cover-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 50px;
+  margin-right: 1rem;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content-inner {
+  max-width: 800px;
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* White with 80% opacity */
+  padding: 30px;
+  /* Increased padding for better spacing */
+  border-radius: 10px;
+  /* Slightly more rounded corners */
+}
+
+.content-inner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333;
+  /* Darker text for contrast */
+}
+
+.content-inner p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #555;
+  /* Slightly lighter text for the paragraph */
+}
+
+.outer-div {
+  width: 300px;
+  height: 150px;
+  border-left: 1px solid yellow;
+  border-width: 10px;
+  /* Just to visualize the outer div */
+  padding: 10px;
+}
+
+.inner-div {
+  /* High thickness red left border */
+  padding-top: 10px;
+  padding-left: 15px;
+  /* Add some space between the border and content */
+}
